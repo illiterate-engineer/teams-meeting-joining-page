@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #F7F7F7;
+    overflow: hidden;
+}
+
+.flex-container{
+    min-height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 50px 50px 20px 50px;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 7px;
+    max-width: 500px;
+}
+
+.logo-container{
+    background-color: white;
+    //box-shadow:0 2px 5px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.12), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.14);
+      padding:18px 20px;
+      border-radius: 7px;
+}
+.heading{
+    margin-top: 30px;
+    font-family: 'Sans-serif';
+    font-weight: 550;
+    font-size: 15px;
+}
+
+.btn-voilet{
+    margin: 15px 0px 10px 0px;
+    border: none;
+    color: white;
+    background-color: #6264a7;
+    padding: 9px 50px;
+    font-size: 11px;
+    border-radius: 5px;
+
+}
+
+.teams-app-button{
+border: 1px solid #e1dfdd;
+background-color: white;
+color: #242424;
+font-size: 11px;
+padding: 9px 55px;
+border-radius: 5px;
+}
+
+
+
+.teams-logo{
+    width: 40px;
+    height: 40px;
+}
+
+.second-content{
+    margin-top: 40px;
+}
+
+.no-app{
+    font-size: 12px;
+    font-weight: lighter;
+   // letter-spacing: 0.5px;
+}
+
+.test{
+    text-align: center;
+}
+.download-button{
+    text-decoration: none;
+    font-size: 11px;
+   // text-align: center;
+   color:#5b5fc7;
+   letter-spacing:0.5px
+}
+
+.footer-container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.image{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.microsoft-text{
+    font-size: 9.5px;
+    color: #616161;
+
+}
+.last-header{
+    font-size: 9.5px;
+    text-decoration: none;
+    color: #5b5fc7;
+
+}
+
+.privacy{
+    margin-right: 10px;
+}
